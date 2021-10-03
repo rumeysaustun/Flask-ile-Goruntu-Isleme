@@ -6,7 +6,7 @@ Bu uygulamada ekranda görüntü alabilmek için ```resim.show()``` metodu kulla
 Griye dönüştürülecek resim PyCharmda Python projelerinin olduğu dosyanın içindeki venv klasöründe bulunmalıdır.Örneğin;
 /home/gorountuisleme/PycharmProjects/deneme/venv
 
-Bu sayede resmin adı kullanılarak resim çağrılabilir.Fakat resim ile dosya aynı klasörde değilse resmin olduğu yerin adresi kod parçasının ilgili kısmına yazılır. **agirliktoplama.jpg** olarak resmimizi kaydediyoruz.
+Bu sayede resmin adı kullanılarak resim çağrılabilir.Fakat resim ile dosya aynı klasörde değilse resmin olduğu yerin adresi kod parçasının ilgili kısmına yazılır. **agirliktoplama.jpg** olarak resmimizi kaydediyoruz. Bir de orijinal resim kaybolmasın diye resmin kopyasını **agirliktoplamaorijinal.jpg** olarak kaydediyoruz.
 
 agirliktoplama.jpg dosyanın orjinal hali:
 
