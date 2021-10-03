@@ -1,4 +1,4 @@
-
+#Aşağıdaki kod python ile medyan filtreleme yapmaktadır.
 import PIL
 from PIL import Image
 
