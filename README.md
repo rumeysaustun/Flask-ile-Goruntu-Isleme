@@ -1,1 +1,0 @@
-# Flask-ile-Goruntu-Isleme
