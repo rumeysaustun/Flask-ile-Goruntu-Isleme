@@ -41,13 +41,12 @@ Tek bir pixelden örnek verecek olursak:
 <br>
 <img src="https://user-images.githubusercontent.com/59111328/135754045-ad052ce5-2c0a-4983-b696-49baa7010432.png" width="500">
 
-Tamamen bir görüntüden örnek verecek olursak:
-
-![lazım](https://user-images.githubusercontent.com/59111328/135754743-fd7557fd-4b21-47a8-a531-3f84f8a6ffa7.gif)
-
 Kenarda kalan alanların nasıl hesaplandığına bir bakalım.<br>
 ![ö1](https://user-images.githubusercontent.com/59111328/135754832-e826a044-999d-4376-b35c-3190682ff63d.PNG)
 
 Alınması gereken alan 3x3 olmalı. Bu nedenle 4 rekemının ortada olduğunu varsayarak devam edersek hayali bir sağ taraf da olduğunu varsaymış oluruz. Bu sağ tarafı ise soldaki değerleri sağa aynalayarak doldurabiliriz. Yani yeni matrisimiz {{2,2,2} {2,4,2} {9,4,9}} olur. Buradan da aradığımız rakama ulaşabiliriz.
 
+Bir görüntünün tamamen medyan filtresinden geçişini aşağıdaki giften rahatlıkla anlayabiliriz.
+
+![lazım](https://user-images.githubusercontent.com/59111328/135754743-fd7557fd-4b21-47a8-a531-3f84f8a6ffa7.gif)
 
