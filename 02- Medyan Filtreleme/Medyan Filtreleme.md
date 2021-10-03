@@ -41,4 +41,7 @@ Tek bir pixelden örnek verecek olursak:
 <br>
 <img src="https://user-images.githubusercontent.com/59111328/135754045-ad052ce5-2c0a-4983-b696-49baa7010432.png" width="500">
 
+Tamamen bir görüntüden örnek verecek olursak:
+
+![lazım](https://user-images.githubusercontent.com/59111328/135754743-fd7557fd-4b21-47a8-a531-3f84f8a6ffa7.gif)
 
