@@ -48,6 +48,6 @@ Tamamen bir görüntüden örnek verecek olursak:
 Kenarda kalan alanların nasıl hesaplandığına bir bakalım.<br>
 ![ö1](https://user-images.githubusercontent.com/59111328/135754832-e826a044-999d-4376-b35c-3190682ff63d.PNG)
 
-Alınması gereken alan 3x3 olmalı. 
+Alınması gereken alan 3x3 olmalı. Bu nedenle 4 rekemının ortada olduğunu varsayarak devam edersek hayali bir sağ taraf da olduğunu varsaymış oluruz. Bu sağ tarafı ise soldaki değerleri sağa aynalayarak doldurabiliriz. Yani yeni matrisimiz {{2,2,2} {2,4,2} {9,4,9}} olur. Buradan da aradığımız rakama ulaşabiliriz.
 
 
