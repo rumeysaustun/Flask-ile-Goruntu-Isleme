@@ -17,7 +17,7 @@ Mean filtrelerinin genel çalışma mantığı ise; **NxN** boyutlu bir matris p
 Medyan filtresi için örnek olarak alınan değerler sırasıyla şunlar olsun:
 *996, 1718, 1002, 993, 1692, 1003*
 
-Alınan bu sayıları 3’erli gruplayalım(*window size=3 alındı*):
+Alınan bu sayıları 3’erli gruplayalım (*window size=3 alındı*):
 
 ***1.grup: [996 996 1718]***  → Burada 996 sayısının 2 kere kullanılmasının sebebi window size’ın 3 olarak belirlenmiş olmasıdır. 1.grup için medyan=996 O halde 1. Sayı 996’dır. 
 
@@ -35,6 +35,6 @@ Alınan bu sayıları 3’erli gruplayalım(*window size=3 alındı*):
 *996 1002 1002 1002 1003 1003*
 
 Yeni elde ettiğimiz değerlerden anlaşılacağı gürültüden kaynaklı **1718** ve **1692** sayıları kaybolmuştur. Yeni değerlerin ortalaması ise **1001,3** dür.
-Değerler; ortanca filtre kullanılmadan önce ortalama 1234 idi. Ortanca filtresi kullanımından sonra 1001,3 olmuştur.
+Değerler; ortanca filtre kullanılmadan önce ortalama 1234 idi. Ortanca filtresi kullanımından sonra **1001,3** olmuştur.
 
 
