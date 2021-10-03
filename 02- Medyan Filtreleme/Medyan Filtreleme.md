@@ -38,7 +38,7 @@ Yeni elde ettiğimiz değerlerden anlaşılacağı gürültüden kaynaklı **171
 Değerler; ortanca filtre kullanılmadan önce ortalama 1234 idi. Ortanca filtresi kullanımından sonra **1001,3** olmuştur.
 
 Tek bir pixelden örnek verecek olursak:<br>
-![mmmmm](https://user-images.githubusercontent.com/59111328/135754045-ad052ce5-2c0a-4983-b696-49baa7010432.png "Title" {width=40px height=400px})
-
+![mmmmm](https://user-images.githubusercontent.com/59111328/135754045-ad052ce5-2c0a-4983-b696-49baa7010432.png)
+<img src="https://user-images.githubusercontent.com/59111328/135754045-ad052ce5-2c0a-4983-b696-49baa7010432.png" width="48">
 
 
