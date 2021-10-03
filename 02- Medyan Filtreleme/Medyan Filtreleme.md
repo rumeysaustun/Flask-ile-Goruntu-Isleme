@@ -45,8 +45,9 @@ Tamamen bir görüntüden örnek verecek olursak:
 
 ![lazım](https://user-images.githubusercontent.com/59111328/135754743-fd7557fd-4b21-47a8-a531-3f84f8a6ffa7.gif)
 
-Kenarda kalan alanların nasıl hesaplandığına bir bakalım.
+Kenarda kalan alanların nasıl hesaplandığına bir bakalım.<br>
 ![ö1](https://user-images.githubusercontent.com/59111328/135754832-e826a044-999d-4376-b35c-3190682ff63d.PNG)
 
+Alınması gereken alan 3x3 olmalı. 
 
 
