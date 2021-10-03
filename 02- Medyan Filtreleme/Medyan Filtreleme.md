@@ -51,10 +51,8 @@ Bir görüntünün tamamen medyan filtresinden geçişini aşağıdaki giften ra
 ![lazım](https://user-images.githubusercontent.com/59111328/135754743-fd7557fd-4b21-47a8-a531-3f84f8a6ffa7.gif)
 
 <br><br>
-![medyanfiltrelemeorijinal](https://user-images.githubusercontent.com/59111328/135755773-5af3474c-6a55-455d-b4bd-55f061d518e6.png)
+[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/02-%20Medyan%20Filtreleme/Python%20İle%20Medyan%20Filtre.py) python kodu ile aşağıdaki örnek istenilen hale getirilmiştir.
 
-[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/02-%20Medyan%20Filtreleme/Python%20İle%20Medyan%20Filtre.py) kod ile yukarıda verilen gürültülü resmi aşağıdaki gibi pürüzsüz bir hale getirmiştir.
-
-![medyanfiltreleme](https://user-images.githubusercontent.com/59111328/135755776-4477b3e4-b4d2-4186-b707-ab8435accfe6.png)
+![medyanfiltrelemeorijinal](https://user-images.githubusercontent.com/59111328/135755773-5af3474c-6a55-455d-b4bd-55f061d518e6.png) ![medyanfiltreleme](https://user-images.githubusercontent.com/59111328/135755776-4477b3e4-b4d2-4186-b707-ab8435accfe6.png)
 
 
