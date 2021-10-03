@@ -27,11 +27,6 @@ Alınan bu sayıları 3’erli gruplayalım (*window size=3 alındı*):
 
 ***4.grup:[1002 993 1693]*** → 4.grubun medyanı=1002 bulundu. 4. Sayı=1002 
 
-Tek bir pixelden örnek verecek olursak:
-
-
-
-
 ***5.grup:[ 993, 1692, 1003 ]*** →  Üç sayının medyanı 1003 dür. O halde beşinci sayının yeni değeri 1003 dür.
 
 ***6. grup: [1692 1003 1003]*** → 6.grubun medyan değeri. 1003 dür. O halde son sayının yeni değeri 1003 olmuştur. 
@@ -42,8 +37,8 @@ Tek bir pixelden örnek verecek olursak:
 Yeni elde ettiğimiz değerlerden anlaşılacağı gürültüden kaynaklı **1718** ve **1692** sayıları kaybolmuştur. Yeni değerlerin ortalaması ise **1001,3** dür.
 Değerler; ortanca filtre kullanılmadan önce ortalama 1234 idi. Ortanca filtresi kullanımından sonra **1001,3** olmuştur.
 
-Tek bir pixel için aşağıdaki örnek verilebilir.
-![mmmmm](https://user-images.githubusercontent.com/59111328/135754045-ad052ce5-2c0a-4983-b696-49baa7010432.png)
+Tek bir pixelden örnek verecek olursak:<br>
+![mmmmm](https://user-images.githubusercontent.com/59111328/135754045-ad052ce5-2c0a-4983-b696-49baa7010432.png = 250x250)
 
 
 
