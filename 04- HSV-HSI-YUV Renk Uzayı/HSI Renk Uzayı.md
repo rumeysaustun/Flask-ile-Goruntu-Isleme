@@ -14,6 +14,7 @@ ile hangi oranda karıştığını gösterir. Yarıçapa
 karşılık gelir ve [0,1] aralığında değer alır.
 
 **Şiddet (Intensity-I) :** Işık miktarını gösterir.
+
 **RGB → HSI geçiş:**
 
 ![image](https://user-images.githubusercontent.com/59111328/135862273-77134d7b-810c-41de-ad00-ccf26beaf183.png)
