@@ -61,4 +61,4 @@ for x in range(w):
             if graylist[x][y]>otsu_th:
                 otsu_im[x,y]=(255,255,255)
 res.save("static\img\otsu_yeni.jpg")
-res.show()        #show fonksiyonu ile görüntü ekrana getirilir.
+res.show()   
