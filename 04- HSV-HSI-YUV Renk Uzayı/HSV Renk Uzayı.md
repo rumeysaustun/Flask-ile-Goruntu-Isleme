@@ -24,3 +24,15 @@ Bu kodlar ile aşağıdaki hesaplamalar yapılır.<br>
 
 ![hesaplamalae](https://user-images.githubusercontent.com/59111328/135860938-fbdb5bc2-44bb-4cce-b7dc-77f2e5920f91.PNG)
 
+## Uygulama
+
+**Orijinal hali:**
+
+![HSV](https://user-images.githubusercontent.com/59111328/135861120-b9bcf262-78a4-4780-b2fe-f0656df9686f.jpg)
+
+**Oluşan Yeni Görüntü:**
+
+![HSV_yeni](https://user-images.githubusercontent.com/59111328/135861325-30c713c1-fa48-482f-a981-60a916fabee6.jpg)
+
+
+
