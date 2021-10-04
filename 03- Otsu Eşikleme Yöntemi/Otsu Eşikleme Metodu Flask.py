@@ -2,8 +2,6 @@
 from flask import Flask, render_template
 from PIL import Image
 
-#Kullanacağımız kütüphaneleri uygulamaya dahil edilir.
-
 app = Flask(__name__)
 
 @app.route("/otsu")
@@ -17,8 +15,6 @@ def otsu_gri():
 @app.route("/otsu_yeni")
 def otsuyeni():
     return render_template("otsu_yeni.htm")
-
-#HTML sayflarını oluşturduktan sonra template dosyasına atılır.
 
 if __name__ == "__main__":
     app.run(debug=True)
