@@ -19,5 +19,13 @@ karşılık gelir ve [0,1] aralığında değer alır.
 
 ![image](https://user-images.githubusercontent.com/59111328/135862273-77134d7b-810c-41de-ad00-ccf26beaf183.png)
 
+Formüller:
+
+![for](https://user-images.githubusercontent.com/59111328/135862631-3266b1c4-d035-4082-88a1-f9000f2435ed.PNG)
+
+## Uygulama
+
+**Resmin orijinal hali:**
 
 
+**[Buradaki]() kod yardımıyla oluşan yeni resim:**
