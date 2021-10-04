@@ -28,11 +28,11 @@ Bu kodlar ile aşağıdaki hesaplamalar yapılır.<br>
 
 **Orijinal hali:**
 
-![HSV](https://user-images.githubusercontent.com/59111328/135861120-b9bcf262-78a4-4780-b2fe-f0656df9686f.jpg)
+<img src=https://user-images.githubusercontent.com/59111328/135861120-b9bcf262-78a4-4780-b2fe-f0656df9686f.jpg width="300">
 
 **Oluşan Yeni Görüntü:**
 
-![HSV_yeni](https://user-images.githubusercontent.com/59111328/135861325-30c713c1-fa48-482f-a981-60a916fabee6.jpg)
+<img src=https://user-images.githubusercontent.com/59111328/135861325-30c713c1-fa48-482f-a981-60a916fabee6.jpg width="300">
 
 
 
