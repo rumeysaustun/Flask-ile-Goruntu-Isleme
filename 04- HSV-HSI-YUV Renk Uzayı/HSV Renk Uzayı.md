@@ -20,5 +20,7 @@ Cmax = max (R', G', B')<br>
 Cmin = min (R', G', B')<br>
 Δ = Cmax - Cmin**<br>
 
+Bu kodlar ile aşağıdaki hesaplamalar yapılır.<br>
 
+![hesaplamalae](https://user-images.githubusercontent.com/59111328/135860938-fbdb5bc2-44bb-4cce-b7dc-77f2e5920f91.PNG)
 
