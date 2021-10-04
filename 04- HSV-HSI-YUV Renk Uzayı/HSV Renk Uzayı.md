@@ -12,13 +12,13 @@ RGB renk uzayından HSV renk uzayına geçiş yapmak için belirli formüller ku
 
 Her pikselin değeri 255 ile bölünerek normalize edildikten sonra aşağıdaki formüller ile HSV değerleri bulunabilir.
 
-İlk olarak görüntünün piksel değerlerinde bulunan renk kodları alınır .
-**R' = R/255
-G' = G/255
-B' = B/255
-Cmax = max (R', G', B')
-Cmin = min (R', G', B')
-Δ = Cmax - Cmin**
+İlk olarak görüntünün piksel değerlerinde bulunan renk kodları alınır.<br>
+**R' = R/255<br>
+G' = G/255<br>
+B' = B/255<br>
+Cmax = max (R', G', B')<br>
+Cmin = min (R', G', B')<br>
+Δ = Cmax - Cmin**<br>
 
 
 
