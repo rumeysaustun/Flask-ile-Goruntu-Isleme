@@ -27,5 +27,8 @@ Formüller:
 
 **Resmin orijinal hali:**
 
+![HSI](https://user-images.githubusercontent.com/59111328/136016533-eb107695-426c-478c-8dd3-7377d906b92c.jpg)
 
 **[Buradaki]() kod yardımıyla oluşan yeni resim:**
+
+![HSI_new](https://user-images.githubusercontent.com/59111328/136016552-e0059d68-a053-4857-abe2-cc4236fb72d4.jpg)
