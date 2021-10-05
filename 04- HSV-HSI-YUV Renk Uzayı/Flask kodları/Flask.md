@@ -1,0 +1,2 @@
+## **Son çıktılar aşağıdaki gibidir:**
+
