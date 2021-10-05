@@ -30,7 +30,7 @@ Formüller:
 
 <img src = "https://user-images.githubusercontent.com/59111328/136016533-eb107695-426c-478c-8dd3-7377d906b92c.jpg" width = "300">
 
-**[Buradaki]() kod yardımıyla oluşan yeni resim:**
+**[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/04-%20HSV-HSI-YUV%20Renk%20Uzayı/HSI.py) kod yardımıyla oluşan yeni resim:**
 
 
 <img src = "https://user-images.githubusercontent.com/59111328/136016552-e0059d68-a053-4857-abe2-cc4236fb72d4.jpg" width = "300">
