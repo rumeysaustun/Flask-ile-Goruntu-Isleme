@@ -30,10 +30,6 @@ def  rgbtohsi (R, G, B):
 
   return int(h*180/math.pi), int(s*100), int(i*255)
 
-
-
-
-
 resim=Image.open("static\img\HSI.jpg").convert("RGB")
 resim_pix = resim.load()
 w=resim.size[0]
