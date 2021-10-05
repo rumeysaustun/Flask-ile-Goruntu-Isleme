@@ -39,5 +39,5 @@ for i in range(w):
       r, g, b = resim.getpixel((i, j))
       h, s, v = rgbtohsi(r, g, b)
       resim_pix[i,j] = (h, s, v)
-resim.save("hsi_new.jpg")
+resim.save("static\img\HSI_yeni.jpg")
 resim.show()
