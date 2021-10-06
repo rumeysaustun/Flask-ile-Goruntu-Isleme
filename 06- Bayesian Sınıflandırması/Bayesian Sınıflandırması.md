@@ -10,3 +10,10 @@ Nitelikler birbirlerinden bağımsızdır; yani bir nitelik değeri diğer bir n
 
 ## Uygulaması:
 
+**Orijinal hali:**
+
+<img src="https://user-images.githubusercontent.com/59111328/136281835-a32c95c9-0034-4459-a1fc-9c0ac47982ed.jpg" width="400">
+
+**[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/tree/main/06-%20Bayesian%20Sınıflandırması) kod ile son hali:**
+
+<img src="https://user-images.githubusercontent.com/59111328/136281852-b7a8cf3d-4fe6-48cb-be76-15c72a4f08a9.jpg" width="400">
