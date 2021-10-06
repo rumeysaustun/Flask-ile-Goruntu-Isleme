@@ -54,6 +54,9 @@ Bu formülü uygulama adımlarına dökecek olursak;
 Amaç; imgedeki düşük görünürlüğü iyileştirmektir.
 
 ## Uygulaması:
+[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/05-%20Histogram%20Aralığı%20ile%20Gölge%20Tespiti/Python%20Kodu.py) koda verilen resim:
+
+<img src="https://user-images.githubusercontent.com/59111328/136197143-d22fa0cd-f48d-412e-a479-fdb1ec99eb3b.jpg" width = "400">
 
 Çıktı aşağıdaki gibidir:
 
