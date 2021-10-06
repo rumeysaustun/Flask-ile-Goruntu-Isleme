@@ -53,4 +53,10 @@ Bu formülü uygulama adımlarına dökecek olursak;
 
 Amaç; imgedeki düşük görünürlüğü iyileştirmektir.
 
+## Uygulaması:
+![cicek](https://user-images.githubusercontent.com/59111328/136196200-2217b6d5-fd7a-49ad-8ac3-02ddf86ce731.jpg)<br>
+
+![cicek_yeni](https://user-images.githubusercontent.com/59111328/136196232-e1d522c9-200c-4b22-b678-9f965abb9e8a.jpg)<br>
+
+![cicek_eskileme](https://user-images.githubusercontent.com/59111328/136196247-1bc7b2d3-4a5f-4d9e-bf46-afd3d4fbec85.jpg)<br>
 
