@@ -11,7 +11,7 @@ Histogram matematiksel olarak aşağıdaki şekilde gösterilebilir.
 
 **rk :** k’nıncı parlaklık değeri             **nk :** k nıncı parlaklık değerinin görüntüdeki sayısı
 
-![image](https://user-images.githubusercontent.com/59111328/136184041-07d9e8f8-50ee-4bfe-b967-396c6697fd41.png)
+![image](https://user-images.githubusercontent.com/59111328/136185289-dea79e84-dba2-4da7-bda9-11e62f4672c2.png)
 
 8-bit parlaklıklı görüntüde 256 gri seviye vardır. Örnek olarak tüm değerler ilk 100 değerde toplanırsa renkleri fark etmek zorlaşmaktadır.
 Dönüştürülmüş ve orjinal olan histogramlar grafiklerde görüldüğü üzere olasılık yoğunluğu olarak da gösterebilmektedir
@@ -37,11 +37,11 @@ Görüntüdeki gölgenin yumuşatılması için gerçekleştirilecek işlemler b
 Bu formülü uygulama adımlarına dökecek olursak;
  Resmin histogramı bulunur (her gri seviye için piksel sayısı grafiği).
 
-1.	Histogramdan yararlanılarak kümülatif histogram bulunur. Kümülatif   histogram, histogramın her değerinin kendisinden öncekiler ve kendisinin toplamı ile elde edilen değerleri içeren büyüklüktür.
+1-	Histogramdan yararlanılarak kümülatif histogram bulunur. Kümülatif   histogram, histogramın her değerinin kendisinden öncekiler ve kendisinin toplamı ile elde edilen değerleri içeren büyüklüktür.
 
-2.	Kümülatif histogram değerleri normalize edilip (toplam piksel sayısına bölünerek), yeni resimde olmasını istediğimiz max. renk değerleri ile çarpılır, çıkan değer tam sayıya yuvarlanır. Böylelikle yeni gri seviye değerleri elde edilmiş olur.
+2-	Kümülatif histogram değerleri normalize edilip (toplam piksel sayısına bölünerek), yeni resimde olmasını istediğimiz max. renk değerleri ile çarpılır, çıkan değer tam sayıya yuvarlanır. Böylelikle yeni gri seviye değerleri elde edilmiş olur.
 
-3.	 Eski (Orijinal) gri seviye değerleri ile; 2.adımda elde edilen gri seviye değerleri biribirine karşılık düşürülür ve yeni histogram grafiği çizilir.
+3-	 Eski (Orijinal) gri seviye değerleri ile; 2.adımda elde edilen gri seviye değerleri biribirine karşılık düşürülür ve yeni histogram grafiği çizilir.
 
 **n:** giriş görüntüsündeki toplam piksel sayısı (n0+n1+…….+nL-1 = n)
 
