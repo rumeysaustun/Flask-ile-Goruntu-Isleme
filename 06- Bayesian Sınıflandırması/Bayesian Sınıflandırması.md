@@ -17,3 +17,8 @@ Nitelikler birbirlerinden bağımsızdır; yani bir nitelik değeri diğer bir n
 **[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/tree/main/06-%20Bayesian%20Sınıflandırması) kod ile son hali:**
 
 <img src="https://user-images.githubusercontent.com/59111328/136281852-b7a8cf3d-4fe6-48cb-be76-15c72a4f08a9.jpg" width="400">
+
+## Flask ile Uygulaması
+
+![ori](https://user-images.githubusercontent.com/59111328/136282954-32df5172-3689-4dfd-bdcc-fdd35ba181d0.PNG)
+![2 hali](https://user-images.githubusercontent.com/59111328/136283005-667a5122-7fdd-47c1-bc61-4ccc26e1ac8c.PNG)
