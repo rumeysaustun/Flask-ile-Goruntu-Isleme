@@ -37,11 +37,11 @@ Görüntüdeki gölgenin yumuşatılması için gerçekleştirilecek işlemler b
 Bu formülü uygulama adımlarına dökecek olursak;
  Resmin histogramı bulunur (her gri seviye için piksel sayısı grafiği).
 
-1-	Histogramdan yararlanılarak kümülatif histogram bulunur. Kümülatif   histogram, histogramın her değerinin kendisinden öncekiler ve kendisinin toplamı ile elde edilen değerleri içeren büyüklüktür.
+**1-**	Histogramdan yararlanılarak kümülatif histogram bulunur. Kümülatif   histogram, histogramın her değerinin kendisinden öncekiler ve kendisinin toplamı ile elde edilen değerleri içeren büyüklüktür.
 
-2-	Kümülatif histogram değerleri normalize edilip (toplam piksel sayısına bölünerek), yeni resimde olmasını istediğimiz max. renk değerleri ile çarpılır, çıkan değer tam sayıya yuvarlanır. Böylelikle yeni gri seviye değerleri elde edilmiş olur.
+**2-**	Kümülatif histogram değerleri normalize edilip (toplam piksel sayısına bölünerek), yeni resimde olmasını istediğimiz max. renk değerleri ile çarpılır, çıkan değer tam sayıya yuvarlanır. Böylelikle yeni gri seviye değerleri elde edilmiş olur.
 
-3-	 Eski (Orijinal) gri seviye değerleri ile; 2.adımda elde edilen gri seviye değerleri biribirine karşılık düşürülür ve yeni histogram grafiği çizilir.
+**3-**	 Eski (Orijinal) gri seviye değerleri ile; 2.adımda elde edilen gri seviye değerleri biribirine karşılık düşürülür ve yeni histogram grafiği çizilir.
 
 **n:** giriş görüntüsündeki toplam piksel sayısı (n0+n1+…….+nL-1 = n)
 
