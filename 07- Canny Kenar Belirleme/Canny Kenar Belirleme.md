@@ -11,7 +11,7 @@ Gaussian fonksiyonu:
 
 Denklemde kullanılan σ değeri dağılımın standart sapmadır. Dağılımın ortalama 0 değere sahip olduğu varsayılmaktadır.
 
-![a](https://user-images.githubusercontent.com/59111328/136355986-3c462e8f-bb0d-4a3e-8b78-3b83709766c5.jpg)
+<img src = "https://user-images.githubusercontent.com/59111328/136355986-3c462e8f-bb0d-4a3e-8b78-3b83709766c5.jpg" width="400">
 
 Gaussian fonksiyonu için önemli olabilecek bazı değerler tabloda gösterilmiştir.
 
@@ -78,9 +78,32 @@ Eğer ki eşiği aşan bir komşusu yok ise sıfıra çekilerek kenar resminden 
 ## Uygulaması
 
 **Orijinal:**
-![canny](https://user-images.githubusercontent.com/59111328/136357938-b757ed3e-331c-4693-adfb-c13e2b7c6305.jpg)
+
+<img src = "https://user-images.githubusercontent.com/59111328/136357938-b757ed3e-331c-4693-adfb-c13e2b7c6305.jpg" width="400">
 
 **Gri tonlarına dönüşmüş hali:**
+
+<img src = "https://user-images.githubusercontent.com/59111328/136358566-650b2b5a-5e52-4e65-ba5d-bcc64e2486e6.jpg" width="400">
+
+**Mean filtresinden geçmiş hali:**
+
+<img src = "https://user-images.githubusercontent.com/59111328/136358730-8f2d4352-5e47-45c0-8847-75f19f9c6542.jpg" width="400">
+
+**Robert kenar belirleme işleminden geçmiş hali:**
+
+<img src = "https://user-images.githubusercontent.com/59111328/136358815-11dec9d8-f9ef-4382-8986-fc0fac7adee9.jpg" width="400">
+
+**Non makima işleminden geçmiş hali:**
+
+<img src = "https://user-images.githubusercontent.com/59111328/136358921-52800174-904d-4f33-a5f0-9cd1183d75c3.jpg" width="400">
+
+**İkili eşikleme işleminden geçmiş hali:**
+
+<img src = "https://user-images.githubusercontent.com/59111328/136359002-613383e1-bfa0-43eb-b2ff-233f5e2bbb9d.jpg" width="400">
+
+
+
+
 
 
 
