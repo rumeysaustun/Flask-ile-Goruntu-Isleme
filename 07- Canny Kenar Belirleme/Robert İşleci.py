@@ -111,4 +111,4 @@ for a in range(1, wdh - 1, 1):
             newedge[a][b] = 0
         thrd_value = newedge[a][b]
         newmat[a, b] = (thrd_value, thrd_value, thrd_value)
-image.save("static/img/canny_Robert.png")
+image.save("static/img/canny_Robert.bmp")
