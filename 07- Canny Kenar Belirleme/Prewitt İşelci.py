@@ -37,16 +37,8 @@ edgelist = [[0] * h for x in range(w)]
 
 for x in range(1, w - 1, 1):
     for y in range(1, h - 1, 1):
-        edge_x = (prewitt_x[0][0] * graylist[x - 1][y - 1]) + (prewitt_x[0][1] * graylist[x - 1][y]) +
-        (prewitt_x[0][2] * graylist[x - 1][y + 1]) + (prewitt_x[1][0] * graylist[x][y - 1]) +
-    (prewitt_x[1][1] * graylist[x][y]) + (prewitt_x[1][2] * graylist[x][y + 1]) +
-    (prewitt_x[2][0] * graylist[x + 1][y - 1]) + (prewitt_x[2][1] * graylist[x + 1][y]) + (
-            prewitt_x[2][2] * graylist[x + 1][y + 1])
-    edge_y = (prewitt_y[0][0] * graylist[x - 1][y - 1]) + (prewitt_y[0][1] * graylist[x - 1][y]) + (
-            prewitt_y[0][2] * graylist[x - 1][y + 1]) + (prewitt_y[1][0] * graylist[x][y - 1]) +
-    (prewitt_y[1][1] * graylist[x][y]) + (prewitt_y[1][2] * graylist[x][y + 1]) +
-    (prewitt_y[2][0] * graylist[x + 1][y - 1]) + (prewitt_y[2][1] * graylist[x + 1][y]) +
-    (prewitt_y[2][2] * graylist[x + 1][y + 1])
+        edge_x = (prewitt_x[0][0] * graylist[x - 1][y - 1]) + (prewitt_x[0][1] * graylist[x - 1][y]) +(prewitt_x[0][2] * graylist[x - 1][y + 1]) + (prewitt_x[1][0] * graylist[x][y - 1]) +    (prewitt_x[1][1] * graylist[x][y]) + (prewitt_x[1][2] * graylist[x][y + 1]) +    (prewitt_x[2][0] * graylist[x + 1][y - 1]) + (prewitt_x[2][1] * graylist[x + 1][y]) + (      prewitt_x[2][2] * graylist[x + 1][y + 1])
+    edge_y = (prewitt_y[0][0] * graylist[x - 1][y - 1]) + (prewitt_y[0][1] * graylist[x - 1][y]) + (            prewitt_y[0][2] * graylist[x - 1][y + 1]) + (prewitt_y[1][0] * graylist[x][y - 1]) +    (prewitt_y[1][1] * graylist[x][y]) + (prewitt_y[1][2] * graylist[x][y + 1]) +    (prewitt_y[2][0] * graylist[x + 1][y - 1]) + (prewitt_y[2][1] * graylist[x + 1][y]) +    (prewitt_y[2][2] * graylist[x + 1][y + 1])
 edge = round(math.sqrt((edge_x * edge_x) + (edge_y * edge_y)))
 angle = math.degrees(math.atan2(edge_y, edge_x))
 
