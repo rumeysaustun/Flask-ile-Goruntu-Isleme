@@ -15,7 +15,6 @@ for x in range(1, width - 1):
         r, g, b = img.getpixel((x - 1, y - 1))
 
         intensity = r + g + b
-
         Gx += -intensity
         Gy += -intensity
 
@@ -28,7 +27,6 @@ for x in range(1, width - 1):
         Gx += -(r + g + b)
         Gy += (r + g + b)
 
-        # orta piksel
         r, g, b = img.getpixel((x, y - 1))
 
         Gy += -2 * (r + g + b)
@@ -37,7 +35,6 @@ for x in range(1, width - 1):
 
         Gy += 2 * (r + g + b)
 
-        # right column
         r, g, b = img.getpixel((x + 1, y - 1))
 
         Gx += (r + g + b)
@@ -60,4 +57,4 @@ for x in range(1, width - 1):
 
         newimg.putpixel((x, y), (length, length, length))
 
-newimg.save("static / img / canny_sobel.bmp")
+newimg.save("static\img\canny_sobel.bmp")
