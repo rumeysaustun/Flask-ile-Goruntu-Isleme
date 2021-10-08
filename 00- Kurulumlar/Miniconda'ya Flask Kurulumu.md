@@ -1,7 +1,7 @@
 # Miniconda'ya Flask Kurulumu
 
 - İlk olarak **Anaconda Prompt (miniconda3)** komut ekranı açılır.
-- Ekrana 
+- Flask'ı indirmek için ekrana 
 ```
 python -m pip install Flask
 ```
