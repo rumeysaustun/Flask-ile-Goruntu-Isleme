@@ -132,5 +132,12 @@ Ortalama süzgeçte, seçilen farklı boyutlarda ve değerlerde ortalama süzge�
 1) İmgede çok düşük değere sahip olan bir piksel, o piksele komşu olan bütün piksellerin ortalamasını büyük oranda etkiler ve dolayısıyla işlemlerde yanılsamaya neden olur. 
 2) Süzgeç kerneli belirgin kenarlar üzerinde işlem yaptığında, gürültü pikseller için gösterdiği etkiyi kenarlarda da gösterebilecek ve böylece imgedeki belirgin detaylar ve kenarlar da bulanıklaşabilecektir. Eğer işlem sonundaki imgede belirgin kenarlar önem arz ediyorsa, bu durum problem yaratabilecektir.
 
+**Flask ekran çıktıları:**
+
+![acilma](https://user-images.githubusercontent.com/59111328/136798661-a213e3dd-1411-4d79-bc74-b542a83addf5.PNG)<br>
+![kapama](https://user-images.githubusercontent.com/59111328/136798670-14a7623c-ccdc-46fc-b6ec-ea4fef84fdf9.PNG)<br>
+![genlesma](https://user-images.githubusercontent.com/59111328/136798673-74f624b6-7f7b-47d9-b28c-d9d64cb666ce.PNG)<br>
+![asinma](https://user-images.githubusercontent.com/59111328/136798676-f9d036b3-54ad-4ce5-95ab-3310780dfe75.PNG)<br>
+![gri](https://user-images.githubusercontent.com/59111328/136798678-c49f5382-0559-41d4-abbe-97d57c4a5a26.PNG)<br>
 
 
