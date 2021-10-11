@@ -74,3 +74,5 @@ Wikipedia'da ağırlıklı ortalama genel formülüne bakın bize şunu verir:
 
 **Uygulaması:**
 
+![lazım](https://user-images.githubusercontent.com/59111328/136808385-b7fcedfa-de6b-4a16-b864-70b48653d4a1.PNG)<br>
+![çıktı](https://user-images.githubusercontent.com/59111328/136808391-c8ed1084-aaa7-4675-860d-6338718e79fb.PNG)
