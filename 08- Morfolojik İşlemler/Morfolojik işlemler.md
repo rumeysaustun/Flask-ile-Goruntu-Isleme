@@ -37,7 +37,7 @@ Orijinal Hali:
 
 ![image](https://user-images.githubusercontent.com/59111328/136782229-d3084360-c537-4c27-8516-f9ca172c0b1d.png) <br>
 
-![AŞINDIRMA](https://user-images.githubusercontent.com/59111328/136782315-27915e57-18c3-4a64-b5e9-a506a910a3cc.png)
+![image](https://user-images.githubusercontent.com/59111328/136790189-2ce9d1c3-0338-4bbf-a3be-fd3a6c29be05.png)
 
 **Aşınma İşlemi Uygulaması**
 
