@@ -53,4 +53,35 @@ Orijinal Hali:
 
 İmge üzerinde aşınma işleminin hemen ardından genleşme işlenmesi uygulanması sonucu açma işlemi elde edilir. İmge içerisindeki nesneler ve nesneler arasındaki boşluklar yapısal elemanın büyüklüğüne göre temizlenir. İmge üzerinde kalan nesneler orijinal imgedeki şekillerinden biraz daha küçük hale gelir. Açma işlemi ile birbirine yakın iki nesne imgede fazla değişime sebebiyet vermeden ayrılmış olurlar.
 
+![image](https://user-images.githubusercontent.com/59111328/136790308-1a4f008d-ac7a-4847-a01d-617013855f8d.png)
+<br>
 ![image](https://user-images.githubusercontent.com/59111328/136790130-1b67b319-4d46-4611-b60a-60fd9cf908e9.png)
+
+**Açma İşlemi Uygulaması**
+
+Orijinal Hali:
+
+![morfolojik](https://user-images.githubusercontent.com/59111328/136790866-fad179ef-2062-45bd-a3b6-23282b99d922.png)
+
+[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/08-%20Morfolojik%20İşlemler/acma.py) kodla açılmış hali:
+
+![morfolojik_acma](https://user-images.githubusercontent.com/59111328/136790883-875be952-fa51-4440-a5b1-2a5e191f88c0.jpg)
+
+### Kapama İşlemi
+
+İmge üzerinde genleşme işleminin hemen ardından aşınma işleminin uygulanması sonucu kapama işlemi elde edilir. Dolayısıyla birbirine yakın iki nesne imgede fazla değişiklik yapılmadan birbirine bağlanmış olur. Kapama işlemi sonunda imge içerisindeki noktalar birbirlerini kapatırlar, imgedeki ana hatlar daha da dolgunlaşır. Genleşme işlemine benzer bir şekilde kapama işleminde de birbirine yakın olan noktalar arasındaki boşluklar dolar ve noktalar birleşir. İmge üzerinde kalan nesneler, orijinal imgedeki şekillerine bürünürler.
+
+![image](https://user-images.githubusercontent.com/59111328/136790949-f78c622c-80a7-4ec4-b698-7cfd85a4681c.png)<br>
+
+![image](https://user-images.githubusercontent.com/59111328/136790967-d42c7946-012e-44b2-bdd0-468c787f5184.png)
+
+**Kapama İşlemi Uygulaması**
+ 
+ Orijinal Hali:
+ 
+ ![morfolojik](https://user-images.githubusercontent.com/59111328/136791096-faef6ec7-17d3-4aa4-b87c-e43251be2af6.png)
+
+[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/08-%20Morfolojik%20İşlemler/kapama.py) kod ile kapanmış hali:
+
+![morfolojik_kapanma](https://user-images.githubusercontent.com/59111328/136791311-1509f43b-474e-4a8c-be7f-e9614714020d.jpg)
+
