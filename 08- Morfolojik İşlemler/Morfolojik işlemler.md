@@ -21,5 +21,17 @@ Biyolojinin canlıların şekil ve yapıları ile ilgilenen dalına **morfoloji 
 
 ![genleşme](https://user-images.githubusercontent.com/59111328/136694873-5088815a-d85a-4f74-a838-9175cb11b81e.png)
 
-**Genleşme İşlemi Uygulaması **
+**Genleşme İşlemi Uygulaması**
+
+### Aşınma İşlemi
+
+İkili imgedeki nesneyi küçültmeye ya da inceltmeye yarayan morfolojik işlemdir. Aşınma işlemi tam anlamıyla olmasa da bir bakıma genleşme işleminin tersi gibidir. İmge içerisindeki nesneler ufalır, delik varsa genişler, bağlı nesneler ayrılma eğilimi gösterir.
+
+![image](https://user-images.githubusercontent.com/59111328/136782229-d3084360-c537-4c27-8516-f9ca172c0b1d.png) <br>
+
+![AŞINDIRMA](https://user-images.githubusercontent.com/59111328/136782315-27915e57-18c3-4a64-b5e9-a506a910a3cc.png)
+
+**Aşınma İşlemi Uygulaması**
+
+
 
