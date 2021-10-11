@@ -113,7 +113,7 @@ Orijinal resim:
 
 <img src="https://user-images.githubusercontent.com/59111328/136792715-3e5f626b-8781-431e-9e08-7e0bb1d9e1f7.jpg" width="600">
 
-[Buradaki]() kod ile gri seviyeli aşınma hali:
+[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/08-%20Morfolojik%20İşlemler/griasinma.py) kod ile gri seviyeli aşınma hali:
 
 <img src="https://user-images.githubusercontent.com/59111328/136792745-3a1effdb-bcf9-4dad-bb56-82b2e5811753.png" width="600">
 
