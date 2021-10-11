@@ -8,17 +8,17 @@ Meanshift, noktaları noktaya doğru kaydırarak, veri noktalarını kümelere t
 
 Mavi veri noktaları ilk veri noktalarıdır ve kırmızı her bir iterasyonda bu veri noktalarının konumlarıdır. Her adım için açıklama:
 
-1- Başlangıç hali. Kırmızı ve mavi veri noktaları, Meanshift algoritması başlamadan önce ilk iterasyonda tamamen üst üste gelir.
+- Başlangıç hali. Kırmızı ve mavi veri noktaları, Meanshift algoritması başlamadan önce ilk iterasyonda tamamen üst üste gelir.
 
-2-Yinelemenin sonu 1. Tüm kırmızı veri noktaları kümelere daha da yaklaşır. 4 küme olacak gibi görünüyor.
+- Yinelemenin sonu 1. Tüm kırmızı veri noktaları kümelere daha da yaklaşır. 4 küme olacak gibi görünüyor.
 
-3-Yinelemenin sonu 2. Üst sağ ve sol alt kümeleri sadece iki yineleme kullanılarak yakınsamaya ulaşmış gibi görünmektedir. Orta ve alt sağ kümeler, birleşme gibi görünüyorlar, çünkü iki merkez çok yakın.
+- Yinelemenin sonu 2. Üst sağ ve sol alt kümeleri sadece iki yineleme kullanılarak yakınsamaya ulaşmış gibi görünmektedir. Orta ve alt sağ kümeler, birleşme gibi görünüyorlar, çünkü iki merkez çok yakın.
 
-4-Yinelemenin sonu 3. Sağ üst ve alt sol merkezlerde değişiklik yok. Veri noktaları her bir kümeyi etkilediğinden, diğer iki merkezci bir araya geldiler. Bu, Meanshift imzasıdır, kümelerin sayısı önceden belirlenmemiştir.
+- Yinelemenin sonu 3. Sağ üst ve alt sol merkezlerde değişiklik yok. Veri noktaları her bir kümeyi etkilediğinden, diğer iki merkezci bir araya geldiler. Bu, Meanshift imzasıdır, kümelerin sayısı önceden belirlenmemiştir.
 
-5-Yinelemenin sonu 4. Tüm kümeler yakınsadı olmalıdır.
+- Yinelemenin sonu 4. Tüm kümeler yakınsadı olmalıdır.
 
-6-Yinelemenin sonu 5. Tüm kümelerin aslında hareketi yoktur. Tüm kırmızı veri noktaları için herhangi bir değişiklik tespit edilmediğinden algoritma burada durur.
+- Yinelemenin sonu 5. Tüm kümelerin aslında hareketi yoktur. Tüm kırmızı veri noktaları için herhangi bir değişiklik tespit edilmediğinden algoritma burada durur.
 
 ![image](https://user-images.githubusercontent.com/59111328/136805534-60ec0ac2-be59-42e4-b7d4-7caf74d0aff3.png)
 
@@ -44,19 +44,19 @@ Tek bir nokta hareketini göstermek için bu uygulamanın tüm veri noktaların�
 
 Meanshift'i bir takım veri noktaları X üzerinde çalıştırmaya başlamadan önce birkaç şeye ihtiyacınız olacak:
 
-1-Bir x (X) noktasının komşularını belirlemek için N (x) fonksiyonu kullanılır. Komşu noktalar belli bir mesafe içindeki noktalardır. Mesafe metriği genellikle Öklid Mesafesidir.
+- Bir x (X) noktasının komşularını belirlemek için N (x) fonksiyonu kullanılır. Komşu noktalar belli bir mesafe içindeki noktalardır. Mesafe metriği genellikle Öklid Mesafesidir.
 
-2-Meanshift'te kullanılacak bir çekirdek K (d). K genellikle bir Gauss Çekirdeğidir ve d iki veri noktası arasındaki mesafedir.
+- Meanshift'te kullanılacak bir çekirdek K (d). K genellikle bir Gauss Çekirdeğidir ve d iki veri noktası arasındaki mesafedir.
 
 Şimdi, yukarıdaki ile, bu bir dizi veri noktası X için Ortalama Shift algoritmasıdır:
 
-1.	Her bir x ∈ X veri noktası için x'in komşu noktalarını (N (x)) bulun.
-2.	Her bir x ∈ X veri noktası için, bu denklemden m (x) ortalama kaymasını hesaplayın:
+-	Her bir x ∈ X veri noktası için x'in komşu noktalarını (N (x)) bulun.
+-	Her bir x ∈ X veri noktası için, bu denklemden m (x) ortalama kaymasını hesaplayın:
 
 ![image](https://user-images.githubusercontent.com/59111328/136805781-61eaaf70-37ae-4944-8560-f573dc2ddb89.png)
 
-3.  Her bir x ∈ X veri noktası için x ← m (x) dosyasını güncelleyin.
-  4. N_iteations için veya noktalar neredeyse hareket etmeden veya hareket            etmedikçe tekrarlayın.
+-  Her bir x ∈ X veri noktası için x ← m (x) dosyasını güncelleyin.
+- N_iteations için veya noktalar neredeyse hareket etmeden veya hareket etmedikçe tekrarlayın.
       
 En önemli parça m (x) ortalama kayması hesaplamaktır. 2. adımdaki formül, göz korkutucu görünüyor, ancak onu bozalım. Kırmızı kırmızılı bölümlerin aslında aynı olduğuna dikkat edin:
 
