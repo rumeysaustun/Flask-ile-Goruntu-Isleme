@@ -41,5 +41,11 @@ Orijinal Hali:
 
 **Aşınma İşlemi Uygulaması**
 
+Orijinal Hali:
 
+![morfolojik](https://user-images.githubusercontent.com/59111328/136789305-6277afe3-304e-4a88-bae8-775eef653551.png)
+
+[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/08-%20Morfolojik%20İşlemler/asinma.py) kod ile aşınmış hali:
+
+![morfolojik_asinma](https://user-images.githubusercontent.com/59111328/136789325-de8cc84f-43ac-419e-8092-0aace9c0b34f.jpg)
 
