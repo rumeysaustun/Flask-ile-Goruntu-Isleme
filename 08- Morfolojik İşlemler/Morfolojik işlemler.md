@@ -85,3 +85,40 @@ Orijinal Hali:
 
 ![morfolojik_kapanma](https://user-images.githubusercontent.com/59111328/136791311-1509f43b-474e-4a8c-be7f-e9614714020d.jpg)
 
+### Yapısal Eleman
+
+Yapısal eleman olarak isimlendirilen yapı, imge üzerinde yapacağımız işleme ve yapmak istediğimiz uygulamaya göre istenilen boyutlarda ve istenilen şekilde hazırlanmış küçük ikilik bir imgedir. Yapısal eleman farklı geometrik şekillerden herhangi biri olabilir. En çok kullanılanları kare, dikdörtgen ve dairedir.
+
+![image](https://user-images.githubusercontent.com/59111328/136791583-30a061f6-6e3a-4fe4-b1b4-858066a42546.png)
+
+### Gri Seviyeli Morfolojik İşlemler
+
+Gri seviyeli bir imgenin B yapısal elemanı ile genleşme işlemi denklem 11 ile tanımlanmaktadır. Şekil 1.14’de gri seviyeli imgeye 15x15 kare yapısal elamanı ile genleşme işlemi uygulanmış hali gösterilmektedir. 
+
+![image](https://user-images.githubusercontent.com/59111328/136791874-6be428f1-459c-40a0-ac07-87b48be153f8.png)
+
+Burada Df ve Db, sırasıyla f ve b’nin tanım bölgeleridir. Genleşme işleminden sonra imge daha parlaktır. Gri seviyeli aşınma işlemi denklemi aşağıda tanımlanmıştır. Aşağıdaki şekilde gri seviyeli imgeye 15x15 kare yapısal elemanı ile aşınma işlemi uygulanmış hali gösterilmektedir.
+
+![image](https://user-images.githubusercontent.com/59111328/136791890-d1dd4430-4b32-46f2-a659-bd80619a3fc7.png)
+
+Aşınma işleminden sonra imge daha koyudur. 
+
+![image](https://user-images.githubusercontent.com/59111328/136791922-77618707-d797-4163-9b9a-88a9d4b44897.png)
+
+Gri seviyeli imgelerde yapılan morfolojik işlemler sonucunda;  Gri seviyeli imgede uygulanan genleşme işlemi, imge daha parlak bir hal alır.  İmgede koyu tonlu bölgelerle çevrili olan parlak bölgeler genişlerken, parlak bölgelerle çevrili koyu tonlu bölgeler zayıflamakta, hatta yapısal elemanın ve koyu tonlu bölgenin boyutuna bağlı olarak kaybolabilmektedir. Gri seviyeli imgede uygulanan aşınma işlemi, imge daha koyu bir hal alır.  İmgede koyu tonlu bölgelerle çevrili olan parlak bölgeler daralırken, parlak bölgelerle çevrili koyu tonlu bölgeler genişlemektedir. 
+
+**Gri Seviyeli Aşınma Ve Genleşme Uygulamaları:**
+
+Orijinal resim:
+
+<img src="https://user-images.githubusercontent.com/59111328/136792715-3e5f626b-8781-431e-9e08-7e0bb1d9e1f7.jpg" width="400">
+
+[Buradaki]() kod ile gri seviyeli aşınma hali:
+
+<img src="https://user-images.githubusercontent.com/59111328/136792745-3a1effdb-bcf9-4dad-bb56-82b2e5811753.png" width="400">
+
+
+
+
+
+
