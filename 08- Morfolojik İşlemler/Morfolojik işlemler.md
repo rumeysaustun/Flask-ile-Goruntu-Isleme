@@ -49,3 +49,8 @@ Orijinal Hali:
 
 ![morfolojik_asinma](https://user-images.githubusercontent.com/59111328/136789325-de8cc84f-43ac-419e-8092-0aace9c0b34f.jpg)
 
+### Açma İşlemi
+
+İmge üzerinde aşınma işleminin hemen ardından genleşme işlenmesi uygulanması sonucu açma işlemi elde edilir. İmge içerisindeki nesneler ve nesneler arasındaki boşluklar yapısal elemanın büyüklüğüne göre temizlenir. İmge üzerinde kalan nesneler orijinal imgedeki şekillerinden biraz daha küçük hale gelir. Açma işlemi ile birbirine yakın iki nesne imgede fazla değişime sebebiyet vermeden ayrılmış olurlar.
+
+![image](https://user-images.githubusercontent.com/59111328/136790130-1b67b319-4d46-4611-b60a-60fd9cf908e9.png)
