@@ -16,3 +16,5 @@ Sonuncu yöntem daha iyi sonuç verir, ancak algoritmanın hesaplama süresini a
 
 **Uygulaması:**
 
+![lazım](https://user-images.githubusercontent.com/59111328/136803232-ee67c66a-75bd-4eed-b478-f3f5bbfd4905.PNG)
+
