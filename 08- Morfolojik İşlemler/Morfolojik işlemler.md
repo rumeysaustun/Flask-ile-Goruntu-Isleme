@@ -27,7 +27,7 @@ Orijinal Hali:
 
 ![morfolojik](https://user-images.githubusercontent.com/59111328/136787524-b602f6f6-b1ed-4e45-9571-ca79979738ed.png)
 
-[Buradaki]() kod ile genleşmiş hali:
+[Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/08-%20Morfolojik%20İşlemler/genlesme.py) kod ile genleşmiş hali:
 
 ![morfolojik_genlesme](https://user-images.githubusercontent.com/59111328/136787629-76fb5038-8717-435c-b4ee-738ff97f61d3.jpg)
 
