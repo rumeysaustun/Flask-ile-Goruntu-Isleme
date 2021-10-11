@@ -122,6 +122,15 @@ Orijinal resim:
 <img src="https://user-images.githubusercontent.com/59111328/136793546-977ae3b5-509f-4d44-9152-fff39451b050.png" width="800">
 
 
+### Ortalama Süzgeç
+
+Ortalama süzgeç, imgedeki gürültüyü azaltmak için yaygın olarak kullanılan, basit bir süzgeç tipidir. Ortalama süzgeçleme, gürültülü imge üzerindeki her bir pikselin değeri o piksele komşu olan diğer piksellere ait değerlerin ortalaması ile değiştirilir. Bu çalışmada, aritmetik ortalama süzgeci kullanılmıştır. Ortalama süzgeci, katlama süzgeç olarak da düşünmek mümkündür. Gürültü çeşidine ve büyüklüğüne göre kullanılacak maske tipi seçilmelidir. Genellikle 3X3’lük maskeler kullanılmaktadır fakat daha büyük gürültü temizleme işlemleri için daha büyük boyutta maskeler kullanılmalıdır. Küçük maskelerin imgeye ardışıl bir şekilde uygulanması koşuluyla, büyük bir maskenin imge üzerinde yarattığı etkiye benzer bir etki oluşturması mümkündür. 
+
+![image](https://user-images.githubusercontent.com/59111328/136793716-2975f0c2-1c2d-484a-8349-a523134646a9.png)
+
+Ortalama süzgeçte, seçilen farklı boyutlarda ve değerlerde ortalama süzgeç maskesine göre oluşturulan yeni ortalama piksel değerleri ile imgedeki gürültülerin eliminasyonu sağlanır. Ortalama süzgecin dezavantajları: 
+1) İmgede çok düşük değere sahip olan bir piksel, o piksele komşu olan bütün piksellerin ortalamasını büyük oranda etkiler ve dolayısıyla işlemlerde yanılsamaya neden olur. 
+2) Süzgeç kerneli belirgin kenarlar üzerinde işlem yaptığında, gürültü pikseller için gösterdiği etkiyi kenarlarda da gösterebilecek ve böylece imgedeki belirgin detaylar ve kenarlar da bulanıklaşabilecektir. Eğer işlem sonundaki imgede belirgin kenarlar önem arz ediyorsa, bu durum problem yaratabilecektir.
 
 
 
