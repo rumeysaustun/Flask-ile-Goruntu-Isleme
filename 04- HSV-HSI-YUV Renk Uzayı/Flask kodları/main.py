@@ -28,4 +28,4 @@ def YUV_yeni():
    return render_template ("YUV_yeni.htm")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
