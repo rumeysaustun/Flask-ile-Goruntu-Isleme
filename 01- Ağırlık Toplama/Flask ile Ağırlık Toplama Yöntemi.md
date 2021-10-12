@@ -8,11 +8,11 @@ Bu sayede resmin adı kullanılarak resim çağrılabilir. Fakat resim ile dosya
 
 agirliktoplama.jpg dosyanın orjinal hali:
 
-![pexels-james-wheeler-417074](https://user-images.githubusercontent.com/59111328/135749363-3be06750-ab4c-4ccb-91f2-73d9a2aba7f5.jpg)
+<img src="https://user-images.githubusercontent.com/59111328/135749363-3be06750-ab4c-4ccb-91f2-73d9a2aba7f5.jpg" width="600">
 
 Oluşacak agirliktoplama_yeni.jpg dosyası:
 
-![agirliktoplama](https://user-images.githubusercontent.com/59111328/135749371-bba8afcc-0abc-4bc2-8e8c-12bede1803fe.jpg)
+<img src="https://user-images.githubusercontent.com/59111328/135749371-bba8afcc-0abc-4bc2-8e8c-12bede1803fe.jpg" width="600">
 
 [Buradaki](https://github.com/rumeysaustun/Flask-ile-Goruntu-Isleme/blob/main/01-%20Ağırlık%20Toplama/Flask%20ile%20Ağırlık%20Toplama.py) kodları uyguladığımızda ise aşağıdaki görüntüler ortaya çıkmaktadır.
 
