@@ -129,8 +129,8 @@ Ortalama süzgeç, imgedeki gürültüyü azaltmak için yaygın olarak kullanı
 ![image](https://user-images.githubusercontent.com/59111328/136793716-2975f0c2-1c2d-484a-8349-a523134646a9.png)
 
 Ortalama süzgeçte, seçilen farklı boyutlarda ve değerlerde ortalama süzgeç maskesine göre oluşturulan yeni ortalama piksel değerleri ile imgedeki gürültülerin eliminasyonu sağlanır. Ortalama süzgecin dezavantajları: 
-1) İmgede çok düşük değere sahip olan bir piksel, o piksele komşu olan bütün piksellerin ortalamasını büyük oranda etkiler ve dolayısıyla işlemlerde yanılsamaya neden olur. 
-2) Süzgeç kerneli belirgin kenarlar üzerinde işlem yaptığında, gürültü pikseller için gösterdiği etkiyi kenarlarda da gösterebilecek ve böylece imgedeki belirgin detaylar ve kenarlar da bulanıklaşabilecektir. Eğer işlem sonundaki imgede belirgin kenarlar önem arz ediyorsa, bu durum problem yaratabilecektir.
+- İmgede çok düşük değere sahip olan bir piksel, o piksele komşu olan bütün piksellerin ortalamasını büyük oranda etkiler ve dolayısıyla işlemlerde yanılsamaya neden olur. 
+- Süzgeç kerneli belirgin kenarlar üzerinde işlem yaptığında, gürültü pikseller için gösterdiği etkiyi kenarlarda da gösterebilecek ve böylece imgedeki belirgin detaylar ve kenarlar da bulanıklaşabilecektir. Eğer işlem sonundaki imgede belirgin kenarlar önem arz ediyorsa, bu durum problem yaratabilecektir.
 
 **Flask ekran çıktıları:**
 
