@@ -37,4 +37,4 @@ def medyan3():
     return render_template("medyan3.htm")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
