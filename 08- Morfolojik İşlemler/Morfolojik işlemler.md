@@ -93,7 +93,7 @@ Yapısal eleman olarak isimlendirilen yapı, imge üzerinde yapacağımız işle
 
 ### Gri Seviyeli Morfolojik İşlemler
 
-Gri seviyeli bir imgenin B yapısal elemanı ile genleşme işlemi denklem 11 ile tanımlanmaktadır. Şekil 1.14’de gri seviyeli imgeye 15x15 kare yapısal elamanı ile genleşme işlemi uygulanmış hali gösterilmektedir. 
+Gri seviyeli bir imgenin B yapısal elemanı ile genleşme işlemi denklem 11 ile tanımlanmaktadır. Aşağıdaki şekilde gri seviyeli imgeye 15x15 kare yapısal elamanı ile genleşme işlemi uygulanmış hali gösterilmektedir. 
 
 ![image](https://user-images.githubusercontent.com/59111328/136791874-6be428f1-459c-40a0-ac07-87b48be153f8.png)
 
