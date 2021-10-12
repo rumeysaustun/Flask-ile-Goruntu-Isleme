@@ -1,4 +1,4 @@
-# MAkine Öğrenmesi
+# Makine Öğrenmesi
 
 ## Makine Öğrenmesi Analiz Yöntemleri
 
