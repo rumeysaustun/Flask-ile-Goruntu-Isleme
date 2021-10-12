@@ -16,7 +16,7 @@ def agirliktoplamayeni():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
 
 resim = Image.open("static\img\\agirliktoplama.jpg").convert("RGB")
 
