@@ -27,7 +27,7 @@ komutu yazılır.<br>
 ![y](https://user-images.githubusercontent.com/59111328/136396461-3f51a8cc-992a-4cf3-8a84-d545c0485ace.PNG)
 - Kurulum bittikten sonra 
 ```
-jpyter-lab
+jupyter-lab
 ``` 
 yazarak çalıştırılır.<br>
 ![jpy](https://user-images.githubusercontent.com/59111328/136396687-3ed530b2-fbb4-4fbc-b15c-e6277159aa19.PNG)
