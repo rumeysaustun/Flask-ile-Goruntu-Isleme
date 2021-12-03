@@ -9,7 +9,7 @@ def HSV():
 
 @app.route("/HSV_yeni")
 def HSV_yeni():
-    return render_template("HSV_yeni.htm.")
+    return render_template("HSV_yeni.htm")
 
 @app.route("/HSI")
 def HSI():
